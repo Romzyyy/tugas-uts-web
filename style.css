@@ -57,26 +57,6 @@
     background-color: #2194ff41;
 }
 
-.icon {
-    width: 50px;
-    height: 150px;
-    position: fixed;
-    right: 60px;
-    bottom: 200px;
-}
-
-.icon .icon-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.icon .icon-image img {
-    width: 50%;
-    margin: 10px;
-    filter: invert(100%);
-}
-
 .header {
     display: flex;
     height: 90vh;
@@ -309,6 +289,26 @@
 .submit p {
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
+}
+
+.icon {
+    width: 50px;
+    height: 150px;
+    position: fixed;
+    right: 60px;
+    bottom: 200px;
+}
+
+.icon .icon-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icon .icon-image img {
+    width: 50%;
+    margin: 10px;
+    filter: invert(100%);
 }
 
 .footer {
