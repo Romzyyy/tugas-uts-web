@@ -370,7 +370,26 @@
     }
 
     /* card-page */
+    .portfolio {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
 
+    .card-portfolio {
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .card-page {
+        height: 100%;
+        margin: 5% 0;
+        height: 100%;
+        width: 100%;
+    }
+    
     /* contact */
     .contact-flex {
         width: 100%;
@@ -420,6 +439,26 @@
 
     .header-flex .paragraf {
         font-size: 15px;
+    }
+
+    /* portfolio */
+    .card-page {
+        height: 100%;
+        margin: 5% 0;
+        height: 200px;
+        width: 100%;
+    }
+
+    .card-image {
+        height: 80%;
+    }
+
+    .card-title p{
+        display: none;
+    }
+
+    .card-description {
+        display: none;
     }
 
     /* contact */
