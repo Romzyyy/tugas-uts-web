@@ -248,7 +248,7 @@
 
 .contact {
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 
 .contact-title {
@@ -299,32 +299,26 @@
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
 }
-
 .icon {
-    width: 50px;
-    height: 150px;
+    width: 30px;
+    top: 40%;
+    right: 5%;
     position: fixed;
-    right: 60px;
-    bottom: 200px;
-    image
+
 }
 
-.icon .icon-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.icon-image {
+    margin: 35px 0;
 }
 
-.icon .icon-image img {
-    width: 50%;
-    margin: 10px;
+.icon-image img {
+    width: 100%;
     filter: invert(100%);
 }
 
-
 .footer {
     height: 50px;
-    background-color: #041c325d;
+    background-color: #041c32;
     display: flex;
     justify-content: center;
 }
@@ -344,6 +338,22 @@
     .navigation {
         width: 70%;
     }
+
+    .icon {
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icon-image {
+        margin: 40px 25px;
+    }
+    
+    .icon-image img {
+        width: 25px;
+        filter: invert(100%);
+    }
 }
 
 @media screen and ( max-width: 576px) {
@@ -352,10 +362,5 @@
     }
 
     /* icon */
-    .icon {
-        position: static;
-        display: flex;
-        background-color: aqua;
-        width: 100%;
-    }
+
 }
