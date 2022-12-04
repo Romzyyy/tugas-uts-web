@@ -23,6 +23,7 @@
     padding: 8px 0;
     position: fixed;
     box-shadow: 0px 2px 6px black;
+    z-index: 999;
 }
 
 .logo {
@@ -81,6 +82,11 @@
     justify-content: space-around;
 }
 
+.header-flex img {
+    width: 100%;
+    border-radius: 30px;
+}
+
 .header-flex .say {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -90,7 +96,7 @@
 
 .header-flex h1 {
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .header-flex .info {
@@ -202,7 +208,6 @@
     height: 400px;
     margin: 5% 15%;
     display: flex;
-    justify-content: space-between;
 }
 
 .card-page {
@@ -210,7 +215,7 @@
     background-color: #1c3057;
     margin: 10px;
     border-radius: 3px;
-    overflow: hidden;
+        
     box-shadow: 3px 10px 18px #161616;
     display: flex;
     flex-direction: column;
