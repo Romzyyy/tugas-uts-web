@@ -125,7 +125,7 @@
 
 .about-flex {
     height: 500px;
-    margin: 2% 15%;
+    margin: 5% 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,7 +133,7 @@
 
 
 
-.about-image {
+/* .about-image {
     margin-top: -220px;
     width: 20%;
     height: 55%;
@@ -141,7 +141,7 @@
     border: 3px solid #ffffff;   
     cursor: pointer;
     position: absolute;
-}
+} */
 
 .about-image img { 
     position: relative; 
@@ -466,12 +466,18 @@
 
     .about-image {
         margin: auto;
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .about-image img {
-        width: 100%;
-        margin-top: -20px;
-        margin-left: 10px;
+        width: 10rem;
+        margin-top: -40px;
+        margin-left: 20px;
+       
+        
     }
 
     .about-paragraf {
