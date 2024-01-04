@@ -142,20 +142,31 @@
     cursor: pointer;
     position: absolute;
 } */
+.img-bg {
+    width: 20rem;
+    height: 26.5rem;
+    border: solid 4px #fff;
+    border-radius: 10px;
+    position: absolute;
+    margin: 20px;
+}
+
+
+
 
 .about-image img { 
     position: relative; 
-    width: 100%;
+    width: 20rem;
     filter: grayscale(100%);
-    margin-top: -8px;
-    margin-left: -24px;
     border-radius: 10px;
     transition: 0.3s ease;
 }
 
 .about-image img:hover {
     filter:none;
-    width: 105%;
+    width: 21.5rem;
+    margin-bottom: -10px;
+    margin-right: -10px;
 }
 
 .about-paragraf {
@@ -448,7 +459,7 @@
 
     /* about */
     .about-title {
-        margin-bottom: 70px;
+        margin-bottom: 20px;
     }
     .about-flex {
         width: 100%;
@@ -472,12 +483,19 @@
         justify-content: center;
     }
 
+    .img-bg {
+        width: 10.5rem;
+        height: 12.5rem;
+    }
+
     .about-image img {
         width: 10rem;
-        margin-top: -40px;
         margin-left: 20px;
-       
-        
+    }
+
+    .about-image img:hover {
+        width: 11rem;
+        margin-left: -10px;
     }
 
     .about-paragraf {
@@ -491,8 +509,8 @@
     .card-about .about-paragraf p {
         text-align: center;
         height: 100%;
-        margin: 0 20px;
-        margin-bottom: 40px;
+        margin: 0 26px;
+        font-size: large;
     }
 
     .card-about .about-paragraf .paragraf-two {
